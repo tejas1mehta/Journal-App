@@ -1,0 +1,11 @@
+<h2> Post </h2>
+
+<form id="edit-form">
+  <label for="post_title"> Title </label>
+  <input type="text" name="post[title]" id="post_title" value="<%= post.get('title') %>" >
+
+  <label for="post_body"> Description </label>
+  <input type="text" name="post[body]" id="post_body" value="<%= post.get('body') %>" >
+
+  <input type="submit" class="edit-btn" value="Submit">
+</form>
